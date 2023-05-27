@@ -1,0 +1,70 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    padding: 3px 40px;
+    height: 100px;
+    color: #f00000;
+    background-image: linear-gradient(to right, #000, #3d416a);
+    display: flex;
+    justify-content: space-between;
+}
+header>button{
+    background-color: #f00000;
+    color: #fff;
+    height: 40px;
+    width: 90px;
+    font-size: 15pt;
+    border: solid #f00000;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: auto;
+}
+header>h1{
+    font-size: 37pt;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+main {
+    height: 500px;
+    padding: 70px 120px;
+    font-size: 20pt;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #000, #3d416a);
+    color: #fff;
+}
+
+main>section {
+    height: 260px;
+    width: 800px;
+}
+
+.content1>h1{
+    font-size: 50pt;
+    margin: 0px;
+}
+
+.email{
+    height: 55px;
+    width: 400px;
+    margin-top: 30px;
+    padding-left: 10px;
+    border: solid #6c6c6c 1px;
+    background-color: #00000073;
+    border-radius: 5px;
+}
+.submit{
+    height: 58px;
+    width: 150px;
+    background-color: #f00000;
+    color: #fff;
+    font-size: 20pt;
+    border: solid #f00000;
+    border-radius: 5px;
+}
+.content2>p{
+    margin: 0px;
+}
+
